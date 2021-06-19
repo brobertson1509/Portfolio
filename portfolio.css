@@ -1,0 +1,151 @@
+/*CSS reset settings here*/
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+
+}
+.headfoot{
+    background-color: rgb(250, 246, 246);
+    height:50px;
+}
+
+#nametext{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, cursive;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#headertext{
+    float:right;
+    padding-top:10px;
+    padding-right:20px;
+    text-decoration: bold;
+}
+
+#wrapper{
+    width:800px;
+    background:radial-gradient(rgb(112, 90, 101), rgb(105, 84, 94), rgb(29, 12, 17));
+    margin: 0px auto;
+    overflow:hidden;
+}
+
+.headerrow{
+    display:flex;
+}
+
+#aboutheader{
+    flex:2;
+    background: linear-gradient(to right, white, rgb(153, 139, 152));
+    margin-top:20px;
+    margin-right:20px;
+}
+
+#headerphoto{
+    flex:1;
+
+}
+
+#headerphoto img{
+    width: 300px;
+    height:90%;
+    border-width:5px;
+    border-style: solid;
+    border-color:gray;
+    margin-top:20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.content{
+    display: flex;
+    padding-top:20px;
+    padding-left:20px;
+    padding-bottom:20px;
+}
+
+.contentbox{
+    background: linear-gradient(to right, white, rgb(151, 138, 150));
+    margin-right:20px;
+    flex:3;
+    height:500px;
+}
+
+
+.contentbox ul{
+    padding:5px;
+    display:flex;
+    flex-wrap: wrap;
+    list-style:none
+}
+.contentbox li{
+    padding: 2px;
+}
+
+.techimage{
+    height:35px;
+}
+
+.contentphoto{
+    max-width: 100%;
+}
+
+.banner{
+    background:linear-gradient(rgb(171, 170, 175), rgb(135, 133, 147), rgb(171, 170, 175));
+    padding-left:15px;
+    color:white;
+    height:20px;
+}
+
+.text1{
+
+    padding:10px;
+}
+
+.text2{
+    height:190px;
+    padding-left:10px;
+    padding-right: 10px;;
+    font-size:14px;
+    text-align: justify;
+}
+
+
+#footer{
+    text-align: center;
+    align-items: center;
+}
+#footer ul {
+    text-align: center;
+    align-items: center;
+    padding:5px;
+    display:flex;
+    justify-content: center;
+    list-style:none;
+}
+
+#footer li{
+    padding:2px;
+}
+
+.button{
+    background-color:green;
+    margin-left: 50px;
+    margin-right:50px;
+    border-radius: 10px;
+    color:white;
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 16px;
+    padding:5px;
+    box-shadow: inset;
+    display:flex;
+    justify-content: center;
+}
+
+.footerimage{
+    height: 15px;
+}
+
+.underline{
+    text-decoration: underline;
+}
